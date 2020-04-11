@@ -1,0 +1,10 @@
+include deronwilliams.pug
+
+div.sg.box-player
+        h3.player-position SG
+        img.player-image(src=`https://d2cwpp38twqe55.cloudfront.net/req/202004031/images/players/${SGcodigoBR}.jpg`)
+        p.player-name= `${SGfirstName} ${SGsurname}`
+        p.wiki
+            a.wiki(href=`https://en.wikipedia.org/wiki/${SGcodigoWiki}` target="_blank") Wikipedia
+        p.b-reference
+           a.b-reference(href=`https://www.basketball-reference.com/players/${SGinitialBR}/${SGcodigoBR}.html` target="_blank") Basketball-Reference

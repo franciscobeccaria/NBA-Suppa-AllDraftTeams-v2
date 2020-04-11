@@ -1,0 +1,10 @@
+include davidlee.pug
+
+div.sf.box-player
+        h3.player-position SF
+        img.player-image(src=`https://d2cwpp38twqe55.cloudfront.net/req/202004031/images/players/${SFcodigoBR}.jpg`)
+        p.player-name= `${SFfirstName} ${SFsurname}`
+        p.wiki
+            a.wiki(href=`https://en.wikipedia.org/wiki/${SFcodigoWiki}` target="_blank") Wikipedia
+        p.b-reference
+           a.b-reference(href=`https://www.basketball-reference.com/players/${SFinitialBR}/${SFcodigoBR}.html` target="_blank") Basketball-Reference

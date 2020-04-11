@@ -1,0 +1,10 @@
+include andrewbynum.pug
+
+div.c.box-player
+        h3.player-position C
+        img.player-image(src=`https://d2cwpp38twqe55.cloudfront.net/req/202004031/images/players/${CcodigoBR}.jpg`)
+        p.player-name= `${CfirstName} ${Csurname}`
+        p.wiki
+            a.wiki(href=`https://en.wikipedia.org/wiki/${CcodigoWiki}` target="_blank") Wikipedia
+        p.b-reference
+           a.b-reference(href=`https://www.basketball-reference.com/players/${CinitialBR}/${CcodigoBR}.html` target="_blank") Basketball-Reference

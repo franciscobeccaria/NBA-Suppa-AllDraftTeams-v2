@@ -1,0 +1,10 @@
+include andrewbogut.pug
+
+div.pf.box-player
+        h3.player-position PF
+        img.player-image(src=`https://d2cwpp38twqe55.cloudfront.net/req/202004031/images/players/${PFcodigoBR}.jpg`)
+        p.player-name= `${PFfirstName} ${PFsurname}`
+        p.wiki
+            a.wiki(href=`https://en.wikipedia.org/wiki/${PFcodigoWiki}` target="_blank") Wikipedia
+        p.b-reference
+           a.b-reference(href=`https://www.basketball-reference.com/players/${PFinitialBR}/${PFcodigoBR}.html` target="_blank") Basketball-Reference

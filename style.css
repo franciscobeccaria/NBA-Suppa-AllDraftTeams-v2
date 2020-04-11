@@ -1,0 +1,103 @@
+body {
+    background-color: #2C3035;
+  }
+  
+  .main-title {
+    font-family: Raleway;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+  }
+  
+  .rect {
+    margin: auto;
+    width: 920px;
+    height: 350px;
+    background-color: white;
+    /* margin-top: 100px; */
+    border-radius: 10px;
+  }
+  
+  .rect-rest {
+    margin: auto;
+    width: 65%;
+    height: 200px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .second-title {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 15px;
+      text-align: center;
+  }
+  
+  .box-player {
+      width: 180px;
+      height: 300px;
+  }
+
+  .player-position {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: auto;
+      text-align: center;
+  }
+
+  .player-image {
+    width: 92px;
+    margin: auto;
+    border-color: #2C3035;
+    border: 0.9px solid;
+    padding: 0.4px;
+    display: block;
+  }
+  
+  .player-name {
+    font-family: Raleway;
+    text-align: center;
+  }
+  
+  .p-info {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .wiki, .b-reference {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
+      text-align: center;
+  }
+  
+  .position {
+    font-family: Raleway;
+    margin-top: -70px;
+    margin-left: -100px;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .sg {
+      margin-top: -300px;
+      margin-left: 180px;
+  }
+
+  .sf {
+    margin-top: -300px;
+    margin-left: 360px;
+  }
+
+  .pf {
+    margin-top: -300px;
+    margin-left: 540px;
+  }
+
+  .c {
+    margin-top: -300px;
+    margin-left: 720px;
+  }

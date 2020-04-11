@@ -1,0 +1,10 @@
+include chrispaul.pug
+
+div.pg.box-player
+        h3.player-position PG
+        img.player-image(src=`https://d2cwpp38twqe55.cloudfront.net/req/202004031/images/players/${PGcodigoBR}.jpg`)
+        p.player-name= `${PGfirstName} ${PGsurname}`
+        p.wiki
+            a.wiki(href=`https://en.wikipedia.org/wiki/${PGcodigoWiki}` target="_blank") Wikipedia
+        p.b-reference
+           a.b-reference(href=`https://www.basketball-reference.com/players/${PGinitialBR}/${PGcodigoBR}.html` target="_blank") Basketball-Reference
