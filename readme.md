@@ -1,3 +1,5 @@
+Link: https://hopeful-kalam-75187a.netlify.app/
+
 La estructura está compuesta por:
 1. index.pug
 2. player.pug (ejemplo: chrispaul.pug)
